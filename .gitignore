@@ -1,0 +1,164 @@
+
+
+Ayarlar
+
+MERHABA! BLACKBOX'tan en iyi şekilde yararlanmak için bazı önerilerimiz:
+
+Mümkün olduğunca net olun
+
+Cevabın olmasını istediğiniz dilde soruyu bitirin, örneğin: 'python'da mongodb'a bağlan
+ya da sadece yapabilirsin
+Öğretici videoyu izleyin
+İşte bazı öneriler (birini seçin):
+Bir json dosyasından veri okuyan bir fonksiyon yazın
+Phyton'da mongodb'den dokümanlar nasıl silinir
+Nodejs'de mongodb'a bağlanın
+Herhangi bir kodlama sorusu sorun
+Göndermek
+yenile
+Blackbox AI Chat beta sürümündedir ve Blackbox oluşturulan içerikten sorumlu değildir. Blackbox'ı kullanarak, Blackbox'ın Koşullarını ve Gizlilik Politikasını kabul ettiğinizi kabul etmiş olursunuz.
+
+# https://www.toptal.com/developers/gitignore/api/node tarafından düzenlendi
+# https://www.toptal.com/developers/gitignore?templates=node adresinde düzenleyin
+
+### Düğüm ###
+# Kütükler
+kütükler
+*.kayıt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Teşhis raporları (https://nodejs.org/api/report.html)
+rapor.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Çalışma zamanı verileri
+pidler
+*.pid
+*.tohum
+*.pid.lock
+
+# jscoverage/JSCover tarafından oluşturulan araçlı kütüphaneler için dizin
+lib-cov
+
+# istanbul gibi araçlar tarafından kullanılan kapsama dizini
+kapsama
+*.lcov
+
+# nyc test kapsamı
+.nyc_output
+
+# Grunt ara depolama (https://gruntjs.com/creating-plugins#storing-task-files)
+.homurtu
+
+# Bower bağımlılık dizini (https://bower.io/)
+bower_bileşenleri
+
+# düğüm-waf yapılandırması
+.lock-wscript
+
+# Derlenmiş ikili eklentiler (https://nodejs.org/api/addons.html)
+inşa et/Bırak
+
+# Bağımlılık dizinleri
+düğüm_modülleri/
+jspm_packages/
+
+# Snowpack bağımlılık dizini (https://snowpack.dev/)
+web_modülleri/
+
+# TypeScript önbelleği
+*.tsbuildinfo
+
+# İsteğe bağlı npm önbellek dizini
+.npm
+
+# İsteğe bağlı eslint önbelleği
+.eslintcache
+
+# İsteğe bağlı stil önbelleği
+.stylelintcache
+
+# Mikro grup önbelleği
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# İsteğe bağlı REPL geçmişi
+.node_repl_history
+
+# 'npm pack' çıktısı
+*.tgz
+
+# İplik Bütünlüğü dosyası
+.yarn bütünlüğü
+
+# dotenv ortam değişken dosyaları
+.env
+.env.development.local
+.env.test.yerel
+.env.production.local
+.env.yerel
+
+# parsel paketleyici önbelleği (https://parceljs.org/)
+.cache
+.parcel önbelleği
+
+# Next.js derleme çıktısı
+.Sonraki
+dışarı
+
+# Nuxt.js derleme / çıktı oluşturma
+.nuxt
+mesafe
+
+# Gatsby dosyaları
+.önbellek/
+# Projeniz Next.js yerine Gatsby kullanıyorsa, genel satırda yorum yapın
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# halk
+
+# vuepress oluşturma çıktısı
+.vuepress/dist
+
+# vuepress v2.x temp ve önbellek dizini
+.temp
+
+# Docusaurus önbelleği ve oluşturulan dosyalar
+.docusaurus
+
+# Sunucusuz dizinler
+.sunucusuz/
+
+# FuseBox önbelleği
+.sigorta kutusu/
+
+# DynamoDB Yerel dosyaları
+.dynamodb/
+
+# TernJS bağlantı noktası dosyası
+.tern-bağlantı noktası
+
+# VSCode uzantılarını test etmek için kullanılan VSCode sürümlerini saklar
+.vscode testi
+
+# iplik v2
+.yarn/önbellek
+.yarn/bağlı değil
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Düğüm Yaması ###
+# Sunucusuz Webpack dizinleri
+.web paketi/
+
+# İsteğe bağlı stil önbelleği
+
+# SvelteKit derleme / çıktı oluşturma
+.svelte-kit
+
+# https://www.toptal.com/developers/gitignore/api/node'un sonu
